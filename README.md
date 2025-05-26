@@ -120,10 +120,10 @@ int leftMotorSpeed = 255;    // Speed for left motor (0-255)
 #define BOARD_LED_PIN 2
 
 // WiFi credentials (MUST be mutable char arrays)
-char ssid[32] = "OnePlus Nord CE3 5G";
-char password[32] = "01312119";
-char agent_ip_str[16] = "192.168.154.71";  // Mutable buffer for IP string
-IPAddress agent_ip(192, 168, 154, 71);
+char ssid[32] = "YOUR SSID";
+char password[32] = "YOUR PASSWORD";
+char agent_ip_str[16] = "YOUR IP";  // Mutable buffer for IP string
+IPAddress agent_ip(YOUR IP);
 uint16_t agent_port = 8888;
 
 // ROS2 entities
